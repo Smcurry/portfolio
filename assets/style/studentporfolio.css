@@ -2,7 +2,7 @@
 	
 body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	/*background-color: #666;*/
+	background-color: lightgray;
 	}
 
 #container {
@@ -14,7 +14,7 @@ body {
 }
 
 p {
-	margin-bottom: 20px;
+	margin-bottom: auto;
 	}
 
 .listmargin  {
@@ -23,10 +23,10 @@ p {
 
 .img-style-1 {
 	float: left;
-	margin-right: 10px;
-    margin-bottom: 10px;
-	padding: 5px;
-	border: 1px solid #CCC;
+	margin-right: 50px;
+    margin-bottom: 50px;
+	padding:5px;
+	border: 1px solid grey;
 }	
 	
 /* tutorial styles */
@@ -36,7 +36,7 @@ p {
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     background-color: #f1f1f1;
 }
 
@@ -78,4 +78,18 @@ p {
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+/* Click to show or hide code button */
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #dddddd;
+  border: solid 1px #c3c3c3;
+    border-radius: 6px;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
 }
